@@ -17,6 +17,13 @@ structures",
         "scikit-learn",
         "tqdm"
     ],
+    extras_require={
+        "dev": [
+            "pytest",
+            "pytest-cov",
+            "pytest-mock"
+        ]
+    },
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
