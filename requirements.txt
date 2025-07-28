@@ -3,4 +3,3 @@ scipy
 scikit-learn
 tqdm
 pytest
-pytest-cov
