@@ -122,44 +122,6 @@ The library provides an efficient implementation of the Gaussian KDTree approach
 - High-dimensional data processing
 - Real-time filtering applications
 
-## 🧪 Testing
-
-Run the test suite:
-
-```bash
-# Install development dependencies
-pip install -e ".[dev]"
-
-# Run all tests
-pytest tests/ -v
-
-# Run only fast tests
-pytest tests/ -v -m "not slow"
-
-# Run with coverage
-pytest tests/ --cov=GuasKD
-```
-
-## 📊 Performance
-
-The library is optimized for:
-- **Speed**: Efficient KDTree-based neighborhood queries
-- **Memory**: Optimized data structures for large images
-- **Quality**: High-quality filtering with edge preservation
-- **Scalability**: Handles high-dimensional data efficiently
-
-## 🤝 Contributing
-
-We welcome contributions! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-### Development Setup
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
