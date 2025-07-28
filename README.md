@@ -19,6 +19,3 @@ from guaskd.kdtree import Filtering
 # Example usage
 filtered = Filtering(data, mode = 'Bilateral')
 ```
-
-## License
-MIT 
