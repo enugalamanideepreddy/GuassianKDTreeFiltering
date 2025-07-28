@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "GuasKDTreeFiltering"
-version = "0.1.0"
+version = "0.1.1"
 description = "Spatial and Bilateral filtering using Gaussian KDTree data structures"
 readme = "README.md"
 authors = [
